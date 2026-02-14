@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +17,13 @@
             --accent: #06b6d4;
             --radius: 8px;
         }
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Inter', system-ui, sans-serif;
             background: var(--bg);
@@ -24,10 +31,32 @@
             padding: 16px;
             font-size: 14px;
         }
-        h1 { font-size: 1.25rem; color: var(--accent); margin-bottom: 4px; }
-        h2 { font-size: 1rem; color: var(--accent); margin: 20px 0 12px; }
-        .meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
-        .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+
+        h1 {
+            font-size: 1.25rem;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+
+        h2 {
+            font-size: 1rem;
+            color: var(--accent);
+            margin: 20px 0 12px;
+        }
+
+        .meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
         .tabs button {
             padding: 8px 16px;
             border: 1px solid var(--border);
@@ -37,10 +66,24 @@
             cursor: pointer;
             font-size: 0.9rem;
         }
-        .tabs button:hover { border-color: var(--primary); }
-        .tabs button.active { background: var(--primary); border-color: var(--primary); }
-        .panel { display: none; }
-        .panel.active { display: block; }
+
+        .tabs button:hover {
+            border-color: var(--primary);
+        }
+
+        .tabs button.active {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+
+        .panel {
+            display: none;
+        }
+
+        .panel.active {
+            display: block;
+        }
+
         .chart-wrap {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -49,6 +92,7 @@
             margin-bottom: 16px;
             height: 260px;
         }
+
         .table-wrap {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -56,25 +100,80 @@
             overflow: hidden;
             margin-bottom: 16px;
         }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
-        th { color: var(--text-muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
-        tr:last-child td { border-bottom: none; }
-        .valor { color: var(--primary); font-variant-numeric: tabular-nums; }
-        .loading { color: var(--text-muted); padding: 24px; text-align: center; }
-        .error { color: #ef4444; padding: 16px; }
-        .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 10px 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            color: var(--text-muted);
+            font-weight: 600;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .valor {
+            color: var(--primary);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .loading {
+            color: var(--text-muted);
+            padding: 24px;
+            text-align: center;
+        }
+
+        .error {
+            color: #ef4444;
+            padding: 16px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: var(--radius);
             padding: 14px;
         }
-        .card h3 { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 6px; }
-        .card .num { font-size: 1.4rem; font-weight: 600; color: var(--accent); }
-        .card .sub { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+
+        .card h3 {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+
+        .card .num {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--accent);
+        }
+
+        .card .sub {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
     </style>
 </head>
+
 <body>
     <h1>SIMEL Chile — Indicadores, ratios y análisis</h1>
     <p class="meta" id="meta">Cargando…</p>
@@ -83,6 +182,7 @@
         <button type="button" class="active" data-panel="indicadores">Indicadores</button>
         <button type="button" data-panel="ratios">Ratios</button>
         <button type="button" data-panel="analisis">Análisis</button>
+        <button type="button" onclick="window.open('mapa.html', '_blank')">Mapa (Kepler.gl) ↗</button>
     </div>
 
     <div id="panel-indicadores" class="panel active">
@@ -90,8 +190,18 @@
         <div class="chart-wrap"><canvas id="chartIndicadores"></canvas></div>
         <div class="table-wrap">
             <table>
-                <thead><tr><th>Indicador</th><th>Año</th><th>Valor</th></tr></thead>
-                <tbody id="tbodyIndicadores"><tr><td colspan="3" class="loading">Cargando…</td></tr></tbody>
+                <thead>
+                    <tr>
+                        <th>Indicador</th>
+                        <th>Año</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyIndicadores">
+                    <tr>
+                        <td colspan="3" class="loading">Cargando…</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
@@ -101,8 +211,18 @@
         <div class="chart-wrap"><canvas id="chartRatios"></canvas></div>
         <div class="table-wrap">
             <table>
-                <thead><tr><th>Ratio</th><th>Año</th><th>Valor</th></tr></thead>
-                <tbody id="tbodyRatios"><tr><td colspan="3" class="loading">Cargando ratios_sociales.json</td></tr></tbody>
+                <thead>
+                    <tr>
+                        <th>Ratio</th>
+                        <th>Año</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody id="tbodyRatios">
+                    <tr>
+                        <td colspan="3" class="loading">Cargando ratios_sociales.json</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
@@ -112,7 +232,14 @@
         <div id="cardsAnalisis" class="cards"></div>
         <div class="table-wrap">
             <table>
-                <thead><tr><th>Ratio</th><th>Mín</th><th>Máx</th><th>Último</th></tr></thead>
+                <thead>
+                    <tr>
+                        <th>Ratio</th>
+                        <th>Mín</th>
+                        <th>Máx</th>
+                        <th>Último</th>
+                    </tr>
+                </thead>
                 <tbody id="tbodyAnalisis"></tbody>
             </table>
         </div>
@@ -176,7 +303,7 @@
                 `<tr><td>${r.ratio}</td><td>${r.fecha}</td><td class="valor">${r.valor}</td></tr>`
             ).join('');
 
-            const labels = [...new Set(allPoints.map(p => p.fecha))].sort((a,b) => +a - +b);
+            const labels = [...new Set(allPoints.map(p => p.fecha))].sort((a, b) => +a - +b);
             const colors = ['#3b82f6', '#06b6d4', '#34d399', '#f59e0b', '#a78bfa'];
             const datasets = names.slice(0, 5).map((name, i) => ({
                 label: name.length > 30 ? name.slice(0, 30) + '…' : name,
@@ -253,4 +380,5 @@
         });
     </script>
 </body>
+
 </html>

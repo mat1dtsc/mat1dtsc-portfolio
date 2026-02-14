@@ -55,5 +55,25 @@ def main():
         json.dump(sample, f, ensure_ascii=False, indent=2)
     print(f"Guardado: {out_json}")
 
+    # --- Exportar CSV para Kepler.gl (solo regiones) ---
+    # Filtrar solo datos regionales (excluir _T o tot)
+    # Asumimos que region != "_T" son las regiones
+    regional = simel[simel["region"] != "_T"].copy()
+    
+    # Mapeo simple de codigos si es necesario. 
+    # El GeoJSON usa codregion (int): 1, 2, ... 15.
+    # Tus datos CSV usan '01', '02', '13', etc.
+    # Vamos a crear una columna 'codregion' entero para el join en Kepler
+    try:
+        regional["codregion"] = regional["region"].astype(int)
+    except:
+        regional["codregion"] = 0 # Fallback
+        
+    # Seleccionar columnas relevantes para el mapa
+    cols_mapa = ["codregion", "region", "fecha", "indicador", "valor"]
+    out_csv_map = RESULTADOS_DIR / "simel_regional.csv"
+    regional[cols_mapa].to_csv(out_csv_map, index=False)
+    print(f"Guardado: {out_csv_map} (para Kepler.gl)")
+
 if __name__ == "__main__":
     main()

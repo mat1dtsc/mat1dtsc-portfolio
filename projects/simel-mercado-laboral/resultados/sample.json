@@ -1,5 +1,8 @@
 {
   "indicadores": [
+    "Censo 2024 — Hogares censados",
+    "Censo 2024 — Población censada",
+    "Censo 2024 — Viviendas censadas",
     "Expectativa de vida al nacer (años)",
     "PIB per cápita (USD constantes 2015)",
     "Población total",
@@ -16,1490 +19,1508 @@
   ],
   "por_indicador_año": [
     {
+      "indicador": "Censo 2024 — Hogares censados",
+      "fecha": "2024.0",
+      "valor": 6596527.0,
+      "registros": 1
+    },
+    {
+      "indicador": "Censo 2024 — Población censada",
+      "fecha": "2024.0",
+      "valor": 18480432.0,
+      "registros": 1
+    },
+    {
+      "indicador": "Censo 2024 — Viviendas censadas",
+      "fecha": "2024.0",
+      "valor": 7642716.0,
+      "registros": 1
+    },
+    {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 77.13,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 77.58,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 77.84,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 77.88,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 78.28,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 78.46,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 78.53,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 78.65,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 78.75,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 78.89,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 79.09,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 79.24,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 79.22,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 79.55,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 79.71,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 80.01,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 80.3,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 80.61,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 80.56,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 80.32,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 79.35,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 78.88,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 79.18,
       "registros": 1
     },
     {
       "indicador": "Expectativa de vida al nacer (años)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 81.17,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 8465.35,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 8632.01,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 8810.69,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 9130.78,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 9642.37,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 10104.42,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 10611.61,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 11051.35,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 11356.09,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 11116.41,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 11649.29,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 12252.84,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 12882.83,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 13182.73,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 13285.95,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 13433.92,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 13505.1,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 13473.35,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 13763.01,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 13630.59,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 12679.02,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 14051.47,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 14283.15,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 14280.35,
       "registros": 1
     },
     {
       "indicador": "PIB per cápita (USD constantes 2015)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 14579.4,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 15503635.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 15683849.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 15857925.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 16024752.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 16187322.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 16348778.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 16509195.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 16671581.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 16838988.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 17009731.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 17181464.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 17351816.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 17519119.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 17687006.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 17864195.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 18047625.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 18267221.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 18558868.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 18893191.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 19197744.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 19370624.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 19456334.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 19553036.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 19658835.0,
       "registros": 1
     },
     {
       "indicador": "Población total",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 19764771.0,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 86.27,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 86.49,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 86.61,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 86.68,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 86.73,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 86.78,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 86.81,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 86.84,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 86.88,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 86.91,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 86.96,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 87.01,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 87.08,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 87.18,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 87.31,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 87.47,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 87.63,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 87.8,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 87.96,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 88.13,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 88.3,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 88.47,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 88.64,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 88.82,
       "registros": 1
     },
     {
       "indicador": "Población urbana (% del total)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 89.0,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 37.7,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 36.73,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 36.45,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 37.8,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 39.21,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 40.13,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 41.29,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 42.23,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 44.18,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 44.62,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 46.86,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 48.91,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 49.18,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 49.66,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 50.29,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 50.35,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 50.76,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 51.74,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 52.42,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 52.65,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 45.44,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 46.58,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 50.02,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 51.96,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad femenina (% mujeres 15-64)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 52.78,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 74.66,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 73.85,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 73.11,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 72.77,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 72.05,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 71.78,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 72.9,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 72.88,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 73.3,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 72.44,
       "registros": 1
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 74.23,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 74.84,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 74.51,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 74.26,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 74.23,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 74.45,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 74.16,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 74.42,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 74.24,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 73.72,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 67.52,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 68.77,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 70.48,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 71.3,
       "registros": 2
     },
     {
       "indicador": "Tasa de actividad masculina (% hombres 15-64)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 72.02,
       "registros": 2
     },
     {
       "indicador": "Tasa de alfabetización adultos (% 15+)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 95.72,
       "registros": 1
     },
     {
       "indicador": "Tasa de alfabetización adultos (% 15+)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 96.7,
       "registros": 1
     },
     {
       "indicador": "Tasa de alfabetización adultos (% 15+)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 96.27,
       "registros": 1
     },
     {
       "indicador": "Tasa de alfabetización adultos (% 15+)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 96.87,
       "registros": 1
     },
     {
       "indicador": "Tasa de alfabetización adultos (% 15+)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 96.4,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 10.49,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 10.39,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 10.17,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 9.77,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 10.16,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 9.34,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 9.02,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 8.43,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 9.29,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 11.31,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 8.55,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 7.49,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 6.79,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 6.36,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 6.76,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 6.61,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 6.93,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 7.26,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 7.62,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 7.49,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 10.93,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 9.28,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 8.25,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 9.01,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo (% fuerza de trabajo)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 8.72,
       "registros": 2
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 24.75,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 24.56,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 24.98,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 24.73,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 24.52,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 23.41,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 22.11,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 21.64,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 23.76,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 26.74,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 19.06,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 18.0,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 16.93,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 16.68,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 16.98,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 15.81,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 15.8,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 17.73,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 18.14,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 18.95,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 24.38,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 20.48,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 18.29,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 21.97,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo juvenil 15-24 (% fuerza de trabajo 15-24)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 20.99,
       "registros": 1
     },
     {
       "indicador": "Tasa de desempleo total",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 14.51,
       "registros": 12
     },
     {
       "indicador": "Tasa de desempleo total",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 15.35,
       "registros": 12
     },
     {
       "indicador": "Tasa de desempleo total",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 12.36,
       "registros": 12
     },
     {
       "indicador": "Tasa de desempleo total",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 17.3,
       "registros": 12
     },
     {
       "indicador": "Tasa de ocupación total",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 14.52,
       "registros": 12
     },
     {
       "indicador": "Tasa de ocupación total",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 17.82,
       "registros": 12
     },
     {
       "indicador": "Tasa de ocupación total",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 14.56,
       "registros": 12
     },
     {
       "indicador": "Tasa de ocupación total",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 12.66,
       "registros": 12
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 60.78,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2001",
+      "fecha": "2001.0",
       "valor": 59.98,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2002",
+      "fecha": "2002.0",
       "valor": 59.56,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 60.12,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2004",
+      "fecha": "2004.0",
       "valor": 60.59,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2005",
+      "fecha": "2005.0",
       "valor": 60.91,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 62.14,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2007",
+      "fecha": "2007.0",
       "valor": 62.71,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2008",
+      "fecha": "2008.0",
       "valor": 64.12,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 64.01,
       "registros": 1
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2010",
+      "fecha": "2010.0",
       "valor": 66.3,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 67.64,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2012",
+      "fecha": "2012.0",
       "valor": 67.77,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 67.96,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2014",
+      "fecha": "2014.0",
       "valor": 68.35,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 68.53,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2016",
+      "fecha": "2016.0",
       "valor": 68.59,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 69.43,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2018",
+      "fecha": "2018.0",
       "valor": 69.9,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2019",
+      "fecha": "2019.0",
       "valor": 69.79,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 63.25,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2021",
+      "fecha": "2021.0",
       "valor": 64.9,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 67.9,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2023",
+      "fecha": "2023.0",
       "valor": 69.5,
       "registros": 2
     },
     {
       "indicador": "Tasa de participación laboral (% pop. 15-64)",
-      "fecha": "2024",
+      "fecha": "2024.0",
       "valor": 70.63,
       "registros": 2
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2000",
+      "fecha": "2000.0",
       "valor": 52.8,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2003",
+      "fecha": "2003.0",
       "valor": 51.5,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2006",
+      "fecha": "2006.0",
       "valor": 47.7,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2009",
+      "fecha": "2009.0",
       "valor": 47.4,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2011",
+      "fecha": "2011.0",
       "valor": 46.9,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2013",
+      "fecha": "2013.0",
       "valor": 46.8,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2015",
+      "fecha": "2015.0",
       "valor": 45.3,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2017",
+      "fecha": "2017.0",
       "valor": 45.3,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2020",
+      "fecha": "2020.0",
       "valor": 47.0,
       "registros": 1
     },
     {
       "indicador": "Índice Gini (desigualdad de ingresos)",
-      "fecha": "2022",
+      "fecha": "2022.0",
       "valor": 43.0,
       "registros": 1
     }
   ],
   "resumen": {
-    "total_filas": 395,
-    "indicadores": 13
+    "total_filas": 401,
+    "indicadores": 16
   }
 }

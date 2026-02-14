@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMEL Chile — Mapa Interactivo (Kepler.gl)</title>
+    <!-- Kepler.gl dependencies -->
+    <script src="https://unpkg.com/react@16.8.4/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16.8.4/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/redux@3.7.2/dist/redux.js" crossorigin></script>
+    <script src="https://unpkg.com/react-redux@5.0.7/dist/react-redux.min.js" crossorigin></script>
+    <script src="https://unpkg.com/styled-components@4.1.3/dist/styled-components.min.js" crossorigin></script>
+    <script src="https://unpkg.com/kepler.gl@2.5.5/umd/keplergl.min.js" crossorigin></script>
+    <style>
+        body { margin: 0; padding: 0; overflow: hidden; font-family: 'Inter', sans-serif; }
+        #app { width: 100vw; height: 100vh; }
+        .loading {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            color: #94a3b8; font-size: 1.2rem; background: #0a0e17; padding: 20px; border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="loading">Cargando mapa y datos...</div>
+    </div>
+
+    <script>
+        const { KeplerGl, Reducers, Middleware, processKeplerglJSON } = keplerGl;
+        const { createStore, combineReducers, applyMiddleware, compose } = Redux;
+        const { Provider } = ReactRedux;
+        const { render } = ReactDOM;
+
+        // Configuración inicial del mapa (Chile)
+        const mapConfig = {
+            version: 'v1',
+            config: {
+                mapState: {
+                    latitude: -35.675147,
+                    longitude: -71.542969,
+                    zoom: 4,
+                    pitch: 0,
+                    bearing: 0
+                },
+                mapStyle: {
+                    styleType: 'dark'
+                }
+            }
+        };
+
+        // Redux store
+        const reducers = combineReducers({ keplerGl: Reducers.keplerGlReducer });
+        const store = createStore(reducers, {}, applyMiddleware(Middleware.taskMiddleware));
+
+        class App extends React.Component {
+            componentDidMount() {
+                this.loadData();
+            }
+
+            async loadData() {
+                try {
+                    // Cargar GeoJSON y CSV
+                    const [geoRes, csvRes] = await Promise.all([
+                        fetch('../datos/chile_regiones.geojson'),
+                        fetch('../resultados/simel_regional.csv')
+                    ]);
+                    
+                    const geoJson = await geoRes.json();
+                    const csvText = await csvRes.text();
+
+                    // Procesar CSV a filas
+                    const rows = csvText.split('\n').map(row => row.split(','));
+                    const fields = rows[0].map(name => ({ name: name.trim(), format: '' }));
+                    // Limpiar filas vacías
+                    const dataRows = rows.slice(1).filter(r => r.length === fields.length);
+
+                    // Despachar datos a Kepler
+                    this.props.dispatch(
+                        keplerGl.addDataToMap({
+                            datasets: [
+                                {
+                                    info: { label: 'Regiones Chile', id: 'regiones_geo' },
+                                    data: { 
+                                        fields: [{ name: 'codregion', type: 'integer' }], 
+                                        rows: geoJson.features.map(f => [f.properties.codregion]) 
+                                    }
+                                },
+                                {
+                                    info: { label: 'Datos Laborales (CSV)', id: 'simel_data' },
+                                    data: { fields, rows: dataRows }
+                                }
+                            ],
+                            options: {
+                                centerMap: true,
+                                readOnly: false
+                            },
+                            config: mapConfig
+                        })
+                    );
+                    
+                } catch (err) {
+                    console.error("Error cargando datos:", err);
+                    alert("Error cargando datos. Ver consola.");
+                }
+            }
+
+            render() {
+                return React.createElement(KeplerGl, {
+                    mapboxApiAccessToken: '', // No necesario para estilos básicos/gratis de Kepler si no usamos estilo mapbox base
+                    id: "map",
+                    width: window.innerWidth,
+                    height: window.innerHeight,
+                    store: this.props.store
+                });
+            }
+        }
+
+        const mapStateToProps = state => state;
+        const dispatchToProps = dispatch => ({ dispatch });
+        const ConnectedApp = ReactRedux.connect(mapStateToProps, dispatchToProps)(App);
+
+        render(
+            React.createElement(Provider, { store }, React.createElement(ConnectedApp)),
+            document.getElementById('app')
+        );
+    </script>
+</body>
+</html>
