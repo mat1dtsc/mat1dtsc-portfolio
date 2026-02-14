@@ -1,0 +1,201 @@
+CustomerKey,CustomerName,Segment,Region,City
+1,Customer_0001,Corporate,East,Pittsburgh
+2,Customer_0002,Small Business,South,Houston
+3,Customer_0003,Consumer,West,Denver
+4,Customer_0004,Small Business,East,Philadelphia
+5,Customer_0005,Corporate,West,San Francisco
+6,Customer_0006,Corporate,West,Seattle
+7,Customer_0007,Government,East,Washington DC
+8,Customer_0008,Consumer,North,Boston
+9,Customer_0009,Corporate,East,Pittsburgh
+10,Customer_0010,Small Business,West,Denver
+11,Customer_0011,Small Business,West,San Francisco
+12,Customer_0012,Government,East,Washington DC
+13,Customer_0013,Consumer,South,Houston
+14,Customer_0014,Small Business,South,Dallas
+15,Customer_0015,Corporate,West,Seattle
+16,Customer_0016,Consumer,South,Houston
+17,Customer_0017,Consumer,South,Atlanta
+18,Customer_0018,Government,East,Washington DC
+19,Customer_0019,Corporate,North,Boston
+20,Customer_0020,Small Business,East,Philadelphia
+21,Customer_0021,Corporate,North,Detroit
+22,Customer_0022,Small Business,East,Pittsburgh
+23,Customer_0023,Small Business,North,New York
+24,Customer_0024,Consumer,North,New York
+25,Customer_0025,Government,East,Philadelphia
+26,Customer_0026,Corporate,East,Charlotte
+27,Customer_0027,Consumer,North,Detroit
+28,Customer_0028,Consumer,North,Chicago
+29,Customer_0029,Corporate,West,Seattle
+30,Customer_0030,Corporate,West,Los Angeles
+31,Customer_0031,Small Business,South,Miami
+32,Customer_0032,Corporate,West,Seattle
+33,Customer_0033,Small Business,West,Denver
+34,Customer_0034,Small Business,West,San Francisco
+35,Customer_0035,Small Business,North,Chicago
+36,Customer_0036,Consumer,North,New York
+37,Customer_0037,Small Business,West,Seattle
+38,Customer_0038,Small Business,North,Chicago
+39,Customer_0039,Small Business,South,Dallas
+40,Customer_0040,Corporate,West,Denver
+41,Customer_0041,Small Business,East,Philadelphia
+42,Customer_0042,Small Business,South,Miami
+43,Customer_0043,Corporate,North,Chicago
+44,Customer_0044,Consumer,East,Philadelphia
+45,Customer_0045,Corporate,West,San Francisco
+46,Customer_0046,Corporate,South,Houston
+47,Customer_0047,Consumer,North,New York
+48,Customer_0048,Consumer,East,Pittsburgh
+49,Customer_0049,Corporate,South,Houston
+50,Customer_0050,Small Business,South,Atlanta
+51,Customer_0051,Consumer,West,Seattle
+52,Customer_0052,Corporate,North,Chicago
+53,Customer_0053,Small Business,East,Philadelphia
+54,Customer_0054,Consumer,West,Seattle
+55,Customer_0055,Small Business,North,Boston
+56,Customer_0056,Corporate,West,Seattle
+57,Customer_0057,Small Business,West,San Francisco
+58,Customer_0058,Small Business,East,Pittsburgh
+59,Customer_0059,Consumer,North,Boston
+60,Customer_0060,Government,East,Pittsburgh
+61,Customer_0061,Corporate,South,Atlanta
+62,Customer_0062,Small Business,North,Detroit
+63,Customer_0063,Corporate,North,Boston
+64,Customer_0064,Small Business,South,Atlanta
+65,Customer_0065,Corporate,North,New York
+66,Customer_0066,Corporate,South,Miami
+67,Customer_0067,Small Business,East,Washington DC
+68,Customer_0068,Corporate,East,Charlotte
+69,Customer_0069,Consumer,West,Los Angeles
+70,Customer_0070,Consumer,East,Philadelphia
+71,Customer_0071,Small Business,South,Houston
+72,Customer_0072,Small Business,East,Pittsburgh
+73,Customer_0073,Consumer,East,Charlotte
+74,Customer_0074,Corporate,North,Chicago
+75,Customer_0075,Small Business,West,Denver
+76,Customer_0076,Corporate,West,San Francisco
+77,Customer_0077,Corporate,East,Charlotte
+78,Customer_0078,Corporate,North,Detroit
+79,Customer_0079,Small Business,South,Dallas
+80,Customer_0080,Corporate,East,Philadelphia
+81,Customer_0081,Corporate,West,San Francisco
+82,Customer_0082,Consumer,West,San Francisco
+83,Customer_0083,Consumer,South,Dallas
+84,Customer_0084,Small Business,East,Philadelphia
+85,Customer_0085,Corporate,East,Washington DC
+86,Customer_0086,Consumer,North,Detroit
+87,Customer_0087,Small Business,North,New York
+88,Customer_0088,Small Business,East,Pittsburgh
+89,Customer_0089,Consumer,East,Washington DC
+90,Customer_0090,Consumer,East,Pittsburgh
+91,Customer_0091,Corporate,East,Pittsburgh
+92,Customer_0092,Consumer,East,Washington DC
+93,Customer_0093,Corporate,South,Miami
+94,Customer_0094,Consumer,North,Boston
+95,Customer_0095,Corporate,South,Houston
+96,Customer_0096,Consumer,East,Philadelphia
+97,Customer_0097,Corporate,North,Detroit
+98,Customer_0098,Corporate,North,Detroit
+99,Customer_0099,Consumer,East,Pittsburgh
+100,Customer_0100,Consumer,North,Detroit
+101,Customer_0101,Small Business,East,Charlotte
+102,Customer_0102,Small Business,West,Seattle
+103,Customer_0103,Corporate,South,Houston
+104,Customer_0104,Small Business,South,Dallas
+105,Customer_0105,Small Business,South,Miami
+106,Customer_0106,Small Business,East,Charlotte
+107,Customer_0107,Small Business,North,Detroit
+108,Customer_0108,Consumer,West,Denver
+109,Customer_0109,Corporate,North,Detroit
+110,Customer_0110,Corporate,East,Washington DC
+111,Customer_0111,Government,North,Boston
+112,Customer_0112,Small Business,North,New York
+113,Customer_0113,Government,North,Boston
+114,Customer_0114,Government,West,Denver
+115,Customer_0115,Consumer,West,Los Angeles
+116,Customer_0116,Small Business,West,Los Angeles
+117,Customer_0117,Small Business,East,Washington DC
+118,Customer_0118,Small Business,West,Seattle
+119,Customer_0119,Consumer,East,Washington DC
+120,Customer_0120,Corporate,East,Charlotte
+121,Customer_0121,Government,South,Atlanta
+122,Customer_0122,Small Business,South,Houston
+123,Customer_0123,Consumer,North,New York
+124,Customer_0124,Consumer,East,Charlotte
+125,Customer_0125,Corporate,West,Seattle
+126,Customer_0126,Consumer,North,Detroit
+127,Customer_0127,Government,South,Atlanta
+128,Customer_0128,Small Business,North,Detroit
+129,Customer_0129,Small Business,East,Washington DC
+130,Customer_0130,Consumer,East,Charlotte
+131,Customer_0131,Small Business,East,Washington DC
+132,Customer_0132,Corporate,West,San Francisco
+133,Customer_0133,Corporate,North,Boston
+134,Customer_0134,Small Business,North,Boston
+135,Customer_0135,Small Business,South,Miami
+136,Customer_0136,Corporate,South,Atlanta
+137,Customer_0137,Small Business,East,Philadelphia
+138,Customer_0138,Small Business,North,Detroit
+139,Customer_0139,Corporate,North,Chicago
+140,Customer_0140,Corporate,North,Detroit
+141,Customer_0141,Small Business,West,San Francisco
+142,Customer_0142,Small Business,East,Pittsburgh
+143,Customer_0143,Government,East,Washington DC
+144,Customer_0144,Small Business,North,Detroit
+145,Customer_0145,Corporate,East,Washington DC
+146,Customer_0146,Corporate,North,Boston
+147,Customer_0147,Government,West,San Francisco
+148,Customer_0148,Consumer,North,New York
+149,Customer_0149,Corporate,North,Chicago
+150,Customer_0150,Corporate,South,Houston
+151,Customer_0151,Consumer,East,Philadelphia
+152,Customer_0152,Corporate,East,Philadelphia
+153,Customer_0153,Consumer,West,Los Angeles
+154,Customer_0154,Small Business,West,San Francisco
+155,Customer_0155,Corporate,East,Charlotte
+156,Customer_0156,Consumer,North,New York
+157,Customer_0157,Corporate,North,Chicago
+158,Customer_0158,Corporate,South,Houston
+159,Customer_0159,Consumer,East,Pittsburgh
+160,Customer_0160,Corporate,East,Philadelphia
+161,Customer_0161,Small Business,North,Boston
+162,Customer_0162,Small Business,West,Seattle
+163,Customer_0163,Small Business,North,Detroit
+164,Customer_0164,Corporate,West,Seattle
+165,Customer_0165,Small Business,South,Dallas
+166,Customer_0166,Consumer,North,New York
+167,Customer_0167,Corporate,East,Pittsburgh
+168,Customer_0168,Small Business,North,Detroit
+169,Customer_0169,Small Business,West,Denver
+170,Customer_0170,Small Business,South,Atlanta
+171,Customer_0171,Small Business,North,New York
+172,Customer_0172,Small Business,North,Detroit
+173,Customer_0173,Small Business,North,Detroit
+174,Customer_0174,Government,East,Philadelphia
+175,Customer_0175,Corporate,West,Seattle
+176,Customer_0176,Corporate,West,Seattle
+177,Customer_0177,Consumer,North,Boston
+178,Customer_0178,Small Business,South,Houston
+179,Customer_0179,Corporate,South,Atlanta
+180,Customer_0180,Corporate,East,Washington DC
+181,Customer_0181,Consumer,North,Chicago
+182,Customer_0182,Consumer,East,Philadelphia
+183,Customer_0183,Consumer,North,Detroit
+184,Customer_0184,Corporate,North,Detroit
+185,Customer_0185,Consumer,North,Chicago
+186,Customer_0186,Small Business,South,Miami
+187,Customer_0187,Consumer,East,Charlotte
+188,Customer_0188,Government,North,Detroit
+189,Customer_0189,Small Business,North,Chicago
+190,Customer_0190,Consumer,North,Boston
+191,Customer_0191,Government,South,Dallas
+192,Customer_0192,Consumer,South,Miami
+193,Customer_0193,Consumer,North,Detroit
+194,Customer_0194,Corporate,North,Chicago
+195,Customer_0195,Corporate,West,Denver
+196,Customer_0196,Government,East,Pittsburgh
+197,Customer_0197,Small Business,West,Denver
+198,Customer_0198,Small Business,West,Denver
+199,Customer_0199,Small Business,West,Los Angeles
+200,Customer_0200,Consumer,West,Denver

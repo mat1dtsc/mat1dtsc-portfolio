@@ -1,0 +1,22 @@
+ProductKey,ProductName,Category,SubCategory,UnitPrice,UnitCost
+1,Laptop Pro 15,Electronics,Laptops,1299,641.23
+2,Laptop Air 13,Electronics,Laptops,999,637.04
+3,Laptop Business 14,Electronics,Laptops,1099,640.72
+4,Smartphone X,Electronics,Phones,799,439.18
+5,Smartphone Lite,Electronics,Phones,499,219.06
+6,Smartphone Pro Max,Electronics,Phones,1199,526.36
+7,Wireless Mouse,Electronics,Accessories,29,12.02
+8,USB-C Hub,Electronics,Accessories,49,30.21
+9,Bluetooth Headphones,Electronics,Accessories,89,48.97
+10,Standing Desk,Office,Furniture,599,345.63
+11,Ergonomic Chair,Office,Furniture,449,181.91
+12,Monitor Stand,Office,Furniture,79,50.76
+13,Printer Paper (500),Office,Supplies,12,7.3
+14,Ink Cartridge,Office,Supplies,35,15.86
+15,Whiteboard Markers,Office,Supplies,8,3.56
+16,Office Suite Annual,Software,Licenses,120,53.5
+17,Antivirus 1-Year,Software,Licenses,45,21.42
+18,Cloud Storage Plan,Software,Licenses,99,52.59
+19,IT Support Monthly,Software,Services,199,101.09
+20,Data Backup Service,Software,Services,59,27.9
+21,VPN Annual,Software,Services,79,43.68

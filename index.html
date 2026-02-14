@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias | Data Analyst & BI Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">mat1dtsc</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Matias</h1>
+            <h2 class="hero-title">Data Analyst & BI Developer</h2>
+            <p class="hero-description">
+                I turn raw data into clear, actionable business insights using
+                Python, SQL, Power BI, and SAP HANA.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="https://github.com/mat1dtsc" class="btn btn-secondary" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre><code><span class="kw">import</span> pandas <span class="kw">as</span> pd
+<span class="kw">import</span> insights
+
+data = pd.read_sql(<span class="str">"SELECT * FROM business"</span>)
+clean = insights.transform(data)
+dashboard = insights.visualize(clean)
+
+<span class="cmt"># Turning data into decisions</span>
+dashboard.publish(<span class="str">"Power BI"</span>)</code></pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a Data Analyst and Business Intelligence developer passionate about
+                        transforming complex datasets into meaningful stories that drive business decisions.
+                    </p>
+                    <p>
+                        My expertise spans the full data pipeline: from extracting and cleaning data
+                        in SQL Server and SAP HANA, to analyzing it with Python and Pandas,
+                        to building interactive dashboards in Power BI.
+                    </p>
+                    <p>
+                        I also automate repetitive Excel workflows and integrate APIs to
+                        streamline business processes and save valuable time.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-icon">&#128202;</span>
+                        <h3>BI & Dashboards</h3>
+                        <p>Power BI reports that tell a story</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">&#9889;</span>
+                        <h3>Automation</h3>
+                        <p>Excel & API workflow automation</p>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-icon">&#128736;</span>
+                        <h3>Data Engineering</h3>
+                        <p>SQL Server & SAP HANA pipelines</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">DAX</span>
+                        <span class="tag">Power Query (M)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Data & Analytics</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Pandas</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Matplotlib</span>
+                        <span class="tag">Jupyter</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>BI & Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">Data Modeling</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span class="tag">SQL Server</span>
+                        <span class="tag">SAP HANA</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Integration & Automation</h3>
+                    <div class="skill-tags">
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">Excel Automation</span>
+                        <span class="tag">ETL Pipelines</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">SAP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">A selection of my recent work. More on my GitHub.</p>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-icon">&#128200;</div>
+                    <h3>Sales Dashboard</h3>
+                    <p>Interactive Power BI dashboard analyzing sales performance, trends, and KPIs from SQL Server data.</p>
+                    <div class="project-tags">
+                        <span>Power BI</span><span>DAX</span><span>SQL Server</span>
+                    </div>
+                    <a href="https://github.com/mat1dtsc" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">&#129302;</div>
+                    <h3>Excel Automation</h3>
+                    <p>Python scripts to automate repetitive Excel reporting tasks, saving hours of manual work weekly.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>openpyxl</span><span>Pandas</span>
+                    </div>
+                    <a href="https://github.com/mat1dtsc" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">&#128268;</div>
+                    <h3>API Data Pipeline</h3>
+                    <p>Automated data extraction from REST APIs, transformation with Pandas, and loading into SQL Server.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>REST API</span><span>SQL</span>
+                    </div>
+                    <a href="https://github.com/mat1dtsc" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">&#128451;</div>
+                    <h3>SAP HANA Analytics</h3>
+                    <p>Data analysis and reporting solution built on SAP HANA with Python integration for advanced analytics.</p>
+                    <div class="project-tags">
+                        <span>SAP HANA</span><span>Python</span><span>SQL</span>
+                    </div>
+                    <a href="https://github.com/mat1dtsc" class="project-link" target="_blank">View Project &rarr;</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-text">
+                Interested in working together or have a question? Feel free to reach out.
+            </p>
+            <div class="contact-links">
+                <a href="https://github.com/mat1dtsc" class="contact-card" target="_blank">
+                    <span class="contact-icon">&#128187;</span>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/mat%C3%ADas-meneses-caro/" class="contact-card" target="_blank">
+                    <span class="contact-icon">&#128101;</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:your-email@example.com" class="contact-card">
+                    <span class="contact-icon">&#9993;</span>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Matias. Built with purpose.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
