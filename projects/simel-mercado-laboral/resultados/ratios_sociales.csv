@@ -1,0 +1,111 @@
+fecha,ratio,valor
+2000,"Brecha actividad genero (M-F, pp)",36.96
+2001,"Brecha actividad genero (M-F, pp)",37.12
+2002,"Brecha actividad genero (M-F, pp)",36.66
+2003,"Brecha actividad genero (M-F, pp)",34.97
+2004,"Brecha actividad genero (M-F, pp)",32.84
+2005,"Brecha actividad genero (M-F, pp)",31.65
+2006,"Brecha actividad genero (M-F, pp)",31.61
+2007,"Brecha actividad genero (M-F, pp)",30.65
+2008,"Brecha actividad genero (M-F, pp)",29.12
+2009,"Brecha actividad genero (M-F, pp)",27.82
+2010,"Brecha actividad genero (M-F, pp)",27.37
+2011,"Brecha actividad genero (M-F, pp)",25.93
+2012,"Brecha actividad genero (M-F, pp)",25.33
+2013,"Brecha actividad genero (M-F, pp)",24.6
+2014,"Brecha actividad genero (M-F, pp)",23.94
+2015,"Brecha actividad genero (M-F, pp)",24.1
+2016,"Brecha actividad genero (M-F, pp)",23.4
+2017,"Brecha actividad genero (M-F, pp)",22.68
+2018,"Brecha actividad genero (M-F, pp)",21.82
+2019,"Brecha actividad genero (M-F, pp)",21.07
+2020,"Brecha actividad genero (M-F, pp)",22.08
+2021,"Brecha actividad genero (M-F, pp)",22.19
+2022,"Brecha actividad genero (M-F, pp)",20.46
+2023,"Brecha actividad genero (M-F, pp)",19.34
+2024,"Brecha actividad genero (M-F, pp)",19.24
+2000,Ratio actividad F/M,0.505
+2001,Ratio actividad F/M,0.4974
+2002,Ratio actividad F/M,0.4986
+2003,Ratio actividad F/M,0.5194
+2004,Ratio actividad F/M,0.5442
+2005,Ratio actividad F/M,0.5591
+2006,Ratio actividad F/M,0.5664
+2007,Ratio actividad F/M,0.5794
+2008,Ratio actividad F/M,0.6027
+2009,Ratio actividad F/M,0.616
+2010,Ratio actividad F/M,0.6313
+2011,Ratio actividad F/M,0.6535
+2012,Ratio actividad F/M,0.66
+2013,Ratio actividad F/M,0.6687
+2014,Ratio actividad F/M,0.6775
+2015,Ratio actividad F/M,0.6763
+2016,Ratio actividad F/M,0.6845
+2017,Ratio actividad F/M,0.6952
+2018,Ratio actividad F/M,0.7061
+2019,Ratio actividad F/M,0.7142
+2020,Ratio actividad F/M,0.673
+2021,Ratio actividad F/M,0.6773
+2022,Ratio actividad F/M,0.7097
+2023,Ratio actividad F/M,0.7288
+2024,Ratio actividad F/M,0.7329
+2000,Ratio desempleo juvenil/total,2.36
+2001,Ratio desempleo juvenil/total,2.36
+2002,Ratio desempleo juvenil/total,2.46
+2003,Ratio desempleo juvenil/total,2.53
+2004,Ratio desempleo juvenil/total,2.41
+2005,Ratio desempleo juvenil/total,2.51
+2006,Ratio desempleo juvenil/total,2.45
+2007,Ratio desempleo juvenil/total,2.57
+2008,Ratio desempleo juvenil/total,2.56
+2009,Ratio desempleo juvenil/total,2.36
+2010,Ratio desempleo juvenil/total,2.23
+2011,Ratio desempleo juvenil/total,2.4
+2012,Ratio desempleo juvenil/total,2.49
+2013,Ratio desempleo juvenil/total,2.62
+2014,Ratio desempleo juvenil/total,2.51
+2015,Ratio desempleo juvenil/total,2.39
+2016,Ratio desempleo juvenil/total,2.28
+2017,Ratio desempleo juvenil/total,2.44
+2018,Ratio desempleo juvenil/total,2.38
+2019,Ratio desempleo juvenil/total,2.53
+2020,Ratio desempleo juvenil/total,2.23
+2021,Ratio desempleo juvenil/total,2.21
+2022,Ratio desempleo juvenil/total,2.22
+2023,Ratio desempleo juvenil/total,2.44
+2024,Ratio desempleo juvenil/total,2.41
+2000,PIB per cápita (miles USD 2015),8.47
+2001,PIB per cápita (miles USD 2015),8.63
+2002,PIB per cápita (miles USD 2015),8.81
+2003,PIB per cápita (miles USD 2015),9.13
+2004,PIB per cápita (miles USD 2015),9.64
+2005,PIB per cápita (miles USD 2015),10.1
+2006,PIB per cápita (miles USD 2015),10.61
+2007,PIB per cápita (miles USD 2015),11.05
+2008,PIB per cápita (miles USD 2015),11.36
+2009,PIB per cápita (miles USD 2015),11.12
+2010,PIB per cápita (miles USD 2015),11.65
+2011,PIB per cápita (miles USD 2015),12.25
+2012,PIB per cápita (miles USD 2015),12.88
+2013,PIB per cápita (miles USD 2015),13.18
+2014,PIB per cápita (miles USD 2015),13.29
+2015,PIB per cápita (miles USD 2015),13.43
+2016,PIB per cápita (miles USD 2015),13.51
+2017,PIB per cápita (miles USD 2015),13.47
+2018,PIB per cápita (miles USD 2015),13.76
+2019,PIB per cápita (miles USD 2015),13.63
+2020,PIB per cápita (miles USD 2015),12.68
+2021,PIB per cápita (miles USD 2015),14.05
+2022,PIB per cápita (miles USD 2015),14.28
+2023,PIB per cápita (miles USD 2015),14.28
+2024,PIB per cápita (miles USD 2015),14.58
+2000,Índice Gini (desigualdad),52.8
+2003,Índice Gini (desigualdad),51.5
+2006,Índice Gini (desigualdad),47.7
+2009,Índice Gini (desigualdad),47.4
+2011,Índice Gini (desigualdad),46.9
+2013,Índice Gini (desigualdad),46.8
+2015,Índice Gini (desigualdad),45.3
+2017,Índice Gini (desigualdad),45.3
+2020,Índice Gini (desigualdad),47.0
+2022,Índice Gini (desigualdad),43.0

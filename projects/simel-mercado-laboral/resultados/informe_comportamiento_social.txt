@@ -1,0 +1,27 @@
+============================================================
+  INFORME DE COMPORTAMIENTO SOCIAL — CHILE
+  Generado: 2026-02-14
+============================================================
+
+--- Tendencias recientes (últimos años) ---
+  Desempleo total: 8.7% (mas reciente) -> 10.9% (5 anos atras)
+  Brecha actividad genero (M-F): 22.1 pp (ano mas reciente)
+  Indice Gini (desigualdad): 47.0 (ano mas reciente)
+
+--- Correlación PIB per cápita vs Gini ---
+  Correlación (Pearson): -0.953
+  (Valor negativo: a mas PIB pc, menor desigualdad en la serie)
+
+--- Ratio desempleo juvenil / total ---
+  Promedio ratio: 2.414214 (juveniles sufren ~2.4x mas desempleo)
+
+--- Ratios calculados (ver ratios_sociales.csv) ---
+  Brecha actividad genero (M-F, pp): min=19.24, max=37.12, ultimo=19.24
+  Ratio actividad F/M: min=0.50, max=0.73, ultimo=0.73
+  Ratio desempleo juvenil/total: min=2.21, max=2.62, ultimo=2.41
+  PIB per cápita (miles USD 2015): min=8.47, max=14.58, ultimo=14.58
+  Índice Gini (desigualdad): min=43.00, max=52.80, ultimo=43.00
+
+============================================================
+  Fuentes: Banco Mundial (Chile), SIMEL/INE. Uso educativo.
+============================================================

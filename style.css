@@ -478,6 +478,36 @@ a {
     color: var(--accent);
 }
 
+/* ===== SIMEL demo (iframe) ===== */
+.simel-demo-wrap {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.simel-iframe {
+    display: block;
+    width: 100%;
+    height: 380px;
+    border: none;
+}
+
+.simel-links {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.simel-links a {
+    color: var(--primary);
+}
+
+.simel-links a:hover {
+    color: var(--accent);
+}
+
 /* ===== Contact ===== */
 .contact-text {
     color: var(--text-muted);

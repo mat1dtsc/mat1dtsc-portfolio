@@ -1,0 +1,55 @@
+{
+  "fecha_generado": "2026-02-14",
+  "tendencias": [
+    {
+      "indicador": "Desempleo total",
+      "actual": 8.72,
+      "hace_5_anos": 10.93,
+      "unidad": "%"
+    },
+    {
+      "indicador": "Brecha actividad genero (M-F)",
+      "actual": 22.08,
+      "unidad": "pp"
+    },
+    {
+      "indicador": "Indice Gini",
+      "actual": 52.8,
+      "unidad": ""
+    }
+  ],
+  "correlacion_pib_gini": -0.953,
+  "ratio_desempleo_juvenil_promedio": 2.41,
+  "resumen_ratios": [
+    {
+      "ratio": "Brecha actividad genero (M-F, pp)",
+      "min": 19.24,
+      "max": 37.12,
+      "ultimo": 19.24
+    },
+    {
+      "ratio": "Ratio actividad F/M",
+      "min": 0.5,
+      "max": 0.73,
+      "ultimo": 0.73
+    },
+    {
+      "ratio": "Ratio desempleo juvenil/total",
+      "min": 2.21,
+      "max": 2.62,
+      "ultimo": 2.41
+    },
+    {
+      "ratio": "PIB per cápita (miles USD 2015)",
+      "min": 8.47,
+      "max": 14.58,
+      "ultimo": 14.58
+    },
+    {
+      "ratio": "Índice Gini (desigualdad)",
+      "min": 43.0,
+      "max": 52.8,
+      "ultimo": 43.0
+    }
+  ]
+}

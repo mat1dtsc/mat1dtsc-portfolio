@@ -1,0 +1,17 @@
+Datos del Censo — INE Chile
+===========================
+
+Censo 2024 (Población y Vivienda)
+  Portal: https://censo2024.ine.gob.cl
+  Síntesis PDF: https://censo2024.ine.gob.cl/wp-content/uploads/2025/12/sintesis_resultados_censo2024.pdf
+  Base de datos (microdatos): ver portal → Publicaciones → Base de datos
+  Redatam Web: para tabulados y gráficos en línea
+
+Censo 2017
+  Estadísticas: https://www.ine.gob.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda
+  INE.Stat y geodatos: www.ine.gob.cl
+
+Para descargar microdatos completos (personas, hogares, viviendas por comuna/manzana):
+  1. Entra a censo2024.ine.gob.cl o ine.gob.cl
+  2. Busca "Base de datos" / "Microdatos" / "Descargas"
+  3. Usa Redatam o el formato que publique el INE (CSV, SPSS, etc.)

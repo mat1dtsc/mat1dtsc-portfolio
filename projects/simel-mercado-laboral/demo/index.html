@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMEL Chile — Indicadores, ratios y análisis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --bg: #0a0e17;
+            --surface: #1a2332;
+            --border: #1e293b;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --primary: #3b82f6;
+            --accent: #06b6d4;
+            --radius: 8px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            padding: 16px;
+            font-size: 14px;
+        }
+        h1 { font-size: 1.25rem; color: var(--accent); margin-bottom: 4px; }
+        h2 { font-size: 1rem; color: var(--accent); margin: 20px 0 12px; }
+        .meta { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
+        .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+        .tabs button {
+            padding: 8px 16px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .tabs button:hover { border-color: var(--primary); }
+        .tabs button.active { background: var(--primary); border-color: var(--primary); }
+        .panel { display: none; }
+        .panel.active { display: block; }
+        .chart-wrap {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+            margin-bottom: 16px;
+            height: 260px;
+        }
+        .table-wrap {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+            margin-bottom: 16px;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+        th { color: var(--text-muted); font-weight: 600; font-size: 0.75rem; text-transform: uppercase; }
+        tr:last-child td { border-bottom: none; }
+        .valor { color: var(--primary); font-variant-numeric: tabular-nums; }
+        .loading { color: var(--text-muted); padding: 24px; text-align: center; }
+        .error { color: #ef4444; padding: 16px; }
+        .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin-bottom: 16px; }
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 14px;
+        }
+        .card h3 { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 6px; }
+        .card .num { font-size: 1.4rem; font-weight: 600; color: var(--accent); }
+        .card .sub { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
+    </style>
+</head>
+<body>
+    <h1>SIMEL Chile — Indicadores, ratios y análisis</h1>
+    <p class="meta" id="meta">Cargando…</p>
+
+    <div class="tabs">
+        <button type="button" class="active" data-panel="indicadores">Indicadores</button>
+        <button type="button" data-panel="ratios">Ratios</button>
+        <button type="button" data-panel="analisis">Análisis</button>
+    </div>
+
+    <div id="panel-indicadores" class="panel active">
+        <h2>Indicadores mercado laboral</h2>
+        <div class="chart-wrap"><canvas id="chartIndicadores"></canvas></div>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Indicador</th><th>Año</th><th>Valor</th></tr></thead>
+                <tbody id="tbodyIndicadores"><tr><td colspan="3" class="loading">Cargando…</td></tr></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="panel-ratios" class="panel">
+        <h2>Ratios sociedad y economía</h2>
+        <div class="chart-wrap"><canvas id="chartRatios"></canvas></div>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Ratio</th><th>Año</th><th>Valor</th></tr></thead>
+                <tbody id="tbodyRatios"><tr><td colspan="3" class="loading">Cargando ratios_sociales.json</td></tr></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="panel-analisis" class="panel">
+        <h2>Análisis de comportamiento social</h2>
+        <div id="cardsAnalisis" class="cards"></div>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Ratio</th><th>Mín</th><th>Máx</th><th>Último</th></tr></thead>
+                <tbody id="tbodyAnalisis"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const BASE = '../resultados';
+        const charts = {};
+
+        document.querySelectorAll('.tabs button').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+                btn.classList.add('active');
+                document.getElementById('panel-' + btn.dataset.panel).classList.add('active');
+            });
+        });
+
+        function drawIndicadores(data) {
+            const rows = data.por_indicador_año || [];
+            const tbody = document.getElementById('tbodyIndicadores');
+            tbody.innerHTML = rows.slice(0, 80).map(r =>
+                `<tr><td>${r.indicador}</td><td>${r.fecha}</td><td class="valor">${r.valor}</td></tr>`
+            ).join('');
+            const labels = [...new Set(rows.map(r => r.fecha))].sort();
+            const indicadores = [...new Set(rows.map(r => r.indicador))].slice(0, 6);
+            const colors = ['#3b82f6', '#06b6d4', '#34d399', '#f59e0b', '#a78bfa', '#f472b6'];
+            const datasets = indicadores.map((ind, i) => ({
+                label: ind.length > 35 ? ind.slice(0, 35) + '…' : ind,
+                data: labels.map(y => rows.find(r => r.indicador === ind && r.fecha === y)?.valor ?? null),
+                borderColor: colors[i % colors.length],
+                backgroundColor: colors[i % colors.length].replace(')', ', 0.1)').replace('rgb', 'rgba'),
+                fill: true,
+                tension: 0.3
+            }));
+            const ctx = document.getElementById('chartIndicadores').getContext('2d');
+            if (charts.indicadores) charts.indicadores.destroy();
+            charts.indicadores = new Chart(ctx, {
+                type: 'line',
+                data: { labels, datasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#94a3b8', boxWidth: 12 } } },
+                    scales: {
+                        x: { ticks: { color: '#94a3b8', maxTicksLimit: 15 }, grid: { color: '#1e293b' } },
+                        y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } }
+                    }
+                }
+            });
+        }
+
+        function drawRatios(data) {
+            const meta = data.meta || {};
+            const ratios = data.ratios || {};
+            const names = data.resumen || Object.keys(ratios);
+            const allPoints = [];
+            names.forEach(n => { (ratios[n] || []).forEach(p => allPoints.push({ ...p, ratio: n })); });
+            const tbody = document.getElementById('tbodyRatios');
+            tbody.innerHTML = allPoints.slice(-60).map(r =>
+                `<tr><td>${r.ratio}</td><td>${r.fecha}</td><td class="valor">${r.valor}</td></tr>`
+            ).join('');
+
+            const labels = [...new Set(allPoints.map(p => p.fecha))].sort((a,b) => +a - +b);
+            const colors = ['#3b82f6', '#06b6d4', '#34d399', '#f59e0b', '#a78bfa'];
+            const datasets = names.slice(0, 5).map((name, i) => ({
+                label: name.length > 30 ? name.slice(0, 30) + '…' : name,
+                data: labels.map(y => {
+                    const pt = (ratios[name] || []).find(p => p.fecha === y);
+                    return pt ? pt.valor : null;
+                }),
+                borderColor: colors[i % colors.length],
+                tension: 0.3
+            }));
+            const ctx = document.getElementById('chartRatios').getContext('2d');
+            if (charts.ratios) charts.ratios.destroy();
+            charts.ratios = new Chart(ctx, {
+                type: 'line',
+                data: { labels, datasets },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#94a3b8', boxWidth: 12 } } },
+                    scales: {
+                        x: { ticks: { color: '#94a3b8', maxTicksLimit: 18 }, grid: { color: '#1e293b' } },
+                        y: { ticks: { color: '#94a3b8' }, grid: { color: '#1e293b' } }
+                    }
+                }
+            });
+            const metaEl = document.getElementById('meta');
+            const ctxAnio = meta.contexto_anio || {};
+            metaEl.textContent = `Contexto año: ${ctxAnio.anio_actual || meta.actualizado_hasta_ano || '—'} | Datos reales hasta ${meta.ano_maximo_datos_reales || '—'}`;
+        }
+
+        function drawAnalisis(data) {
+            const cards = document.getElementById('cardsAnalisis');
+            cards.innerHTML = '';
+            (data.tendencias || []).forEach(t => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `<h3>${t.indicador}</h3><div class="num">${t.actual} ${t.unidad || ''}</div><div class="sub">${t.hace_5_anos != null ? 'Hace 5 años: ' + t.hace_5_anos + (t.unidad || '') : ''}</div>`;
+                cards.appendChild(card);
+            });
+            if (data.correlacion_pib_gini != null) {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = '<h3>Correlación PIB pc vs Gini</h3><div class="num">' + data.correlacion_pib_gini + '</div><div class="sub">Negativo = más PIB, menor desigualdad</div>';
+                cards.appendChild(card);
+            }
+            if (data.ratio_desempleo_juvenil_promedio != null) {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = '<h3>Ratio desempleo juvenil/total</h3><div class="num">' + data.ratio_desempleo_juvenil_promedio + '×</div><div class="sub">Los jóvenes sufren ~' + data.ratio_desempleo_juvenil_promedio + '× más desempleo</div>';
+                cards.appendChild(card);
+            }
+            const tbody = document.getElementById('tbodyAnalisis');
+            tbody.innerHTML = (data.resumen_ratios || []).map(r =>
+                `<tr><td>${r.ratio}</td><td class="valor">${r.min}</td><td class="valor">${r.max}</td><td class="valor">${r.ultimo}</td></tr>`
+            ).join('');
+        }
+
+        Promise.all([
+            fetch(BASE + '/sample.json').then(r => r.ok ? r.json() : {}),
+            fetch(BASE + '/ratios_sociales.json').then(r => r.ok ? r.json() : {}),
+            fetch(BASE + '/informe_resumen.json').then(r => r.ok ? r.json() : {})
+        ]).then(([sample, ratios, informe]) => {
+            if (sample.por_indicador_año) drawIndicadores(sample);
+            else document.getElementById('tbodyIndicadores').innerHTML = '<tr><td colspan="3" class="error">No se pudo cargar sample.json</td></tr>';
+            if (ratios.ratios) drawRatios(ratios);
+            else {
+                document.getElementById('tbodyRatios').innerHTML = '<tr><td colspan="3" class="error">No se pudo cargar ratios_sociales.json. Ejecuta calcular_ratios_sociales.py</td></tr>';
+                document.getElementById('meta').textContent = 'Faltan datos. Ejecuta: obtener_mercado_actual.py → cargar_datos.py → calcular_ratios_sociales.py → comportamiento_social.py';
+            }
+            if (informe.fecha_generado) drawAnalisis(informe);
+            else document.getElementById('cardsAnalisis').innerHTML = '<p class="loading">Ejecuta comportamiento_social.py para generar informe_resumen.json</p>';
+        }).catch(() => {
+            document.getElementById('meta').textContent = 'Error cargando datos. ¿Estás sirviendo la web desde la raíz del proyecto?';
+        });
+    </script>
+</body>
+</html>
