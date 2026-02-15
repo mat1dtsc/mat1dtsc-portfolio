@@ -21,13 +21,13 @@ def main():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMEL Chile — Mapa Interactivo (Kepler.gl)</title>
-    <!-- Compatible Dependencies for Kepler.gl 2.5.5 UMD -->
-    <script src="https://unpkg.com/react@16.14.0/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16.14.0/umd/react-dom.production.min.js" crossorigin></script>
+    <!-- Stable Dependencies for Kepler.gl 2.3.2 UMD -->
+    <script src="https://unpkg.com/react@16.13.1/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/redux@4.0.5/dist/redux.js" crossorigin></script>
-    <script src="https://unpkg.com/react-redux@7.2.2/dist/react-redux.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-redux@7.2.0/dist/react-redux.min.js" crossorigin></script>
     <script src="https://unpkg.com/styled-components@4.1.3/dist/styled-components.min.js" crossorigin></script>
-    <script src="https://unpkg.com/kepler.gl@2.5.5/umd/keplergl.min.js" crossorigin></script>
+    <script src="https://unpkg.com/kepler.gl@2.3.2/umd/keplergl.min.js" crossorigin></script>
     
     <style>
         body {{ margin: 0; padding: 0; overflow: hidden; font-family: 'Inter', sans-serif; }}
